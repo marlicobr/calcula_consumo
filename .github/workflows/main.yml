@@ -1,0 +1,20 @@
+<meta charset="UTF-8">
+
+<h3>Álcool ou Gasolina?</h3>
+
+<script>
+
+	var tanque = 40
+	var quilometroTotal = 480
+	var consumoTotalGasolina = quilometroTotal/tanque
+
+	document.write("O consumo de gasolina por Km é de: " + consumoTotalGasolina + " Km por litro" + "<br>")
+
+	var quilometroComAlcool = 300
+	var consumoTotalAlcool = quilometroComAlcool/tanque
+
+	document.write("O consumo de Alcool por Km é de: " + consumoTotalAlcool + " Km por litro")
+
+
+</script>
+
